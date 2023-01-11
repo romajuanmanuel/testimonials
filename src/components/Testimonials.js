@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/Testimonials.css'
 
 export default function Testimonial(props) {
-  return (
+  return ( 
     <div className="testimonial-container">
       <img className="testimonial-img"
         src={require(`../img/${props.imagen}.png`)}
