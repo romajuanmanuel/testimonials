@@ -1,14 +1,15 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html,body{
+html, 
+body {
   font-size: 18px;
   background-color: #f5f6f7;
 }
 
-h1{
+h1 {
   max-width: 940px;
   font-size: 2.5em;
   font-family: Lato, sans-serif;
@@ -17,7 +18,7 @@ h1{
   margin: 40px 0;
 }
 
-.App{
+.App {
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -26,12 +27,11 @@ h1{
   text-align: center;
 }
 
-.principal-container{
+.contenedor-principal {
   min-height: 600px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
 }
 
